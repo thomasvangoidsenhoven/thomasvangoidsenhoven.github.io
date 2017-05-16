@@ -219,10 +219,10 @@ hr.small {
     opacity: 0.8;
 }
 
-.portfolio-activitymanager{background-image: url("../img/portfolio-1.jpg")}
-.portfolio-friendmanager{background-image: url("../img/portfolio-1.jpg")}
-.portfolio-boids {background-image: url("../img/portfolio-1.jpg")}
-.portfolio-otherproject{background-image: url("../img/portfolio-1.jpg")}
+.portfolio-activitymanager{background-image: url("../img/activitymanager.png");background-position: center; background-repeat: no-repeat;}
+.portfolio-friendmanager{background-image: url("../img/friendproject.png");background-position: center;background-repeat: no-repeat; }
+.portfolio-boids {background-image: url("../img/boids.png");background-position: center; background-repeat: no-repeat; }
+.portfolio-otherproject{background-image: url("../img/ervaringsdeskundigen.png");background-position: center; background-repeat: no-repeat;}
 
 /* Call to Action */
 
@@ -268,3 +268,28 @@ footer {
 {
     margin-left:8px;
 }
+
+.navArrow{
+    font-size: 50px;
+}
+
+.float_left{
+    float: left;}
+
+.contentSwitcher
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnn
+{
+    border:0;
+    background-color: inherit;
+    box-shadow: none;
+}
+
+.btnn:active{border:0;
+}
+
+.btnn:focus{outline: 0;}
